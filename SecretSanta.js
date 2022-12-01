@@ -105,7 +105,7 @@ SecretSanta.prototype.generate = function () {
         pairings[ name ] = pairing;
 
     }
-
+    console.log(pairings);
     return pairings;
 
 };
